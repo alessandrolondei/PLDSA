@@ -1,5 +1,6 @@
 # PLDSA
 A Python library for Power Law Discrete Sequences Analysis (PLDSA)
+
 Functions:
 1. Entropy
 2. Sequential Entropy
