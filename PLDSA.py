@@ -4,6 +4,7 @@ from collections import Counter
 from scipy.optimize import curve_fit
 from sklearn.linear_model import LinearRegression
 
+# DFA
 def DFA(seq, L, verbose=True, fit=False, fr=None, to=None):
     # Detrended Fluctuation Analysis
     ind_most_common = list(zip(*Counter(seq).most_common()))[0]
